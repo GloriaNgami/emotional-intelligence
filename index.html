@@ -187,10 +187,10 @@
             const avg4 = (submissions.reduce((acc, curr) => acc + curr.s4, 0) / submissions.length).toFixed(1);
 
             document.getElementById('team-averages').innerHTML = `
-                <p>Team Average - Area A: <strong>${avg1} / 40</strong></p>
-                <p>Team Average - Area B: <strong>${avg2} / 40</strong></p>
-                <p>Team Average - Area C: <strong>${avg3} / 40</strong></p>
-                <p>Team Average - Area D: <strong>${avg4} / 40</strong></p>
+                <p>Team Average - Emotional awareness: <strong>${avg1} / 40</strong></p>
+                <p>Team Average - Emotional management: <strong>${avg2} / 40</strong></p>
+                <p>Team Average - Social emotional awareness: <strong>${avg3} / 40</strong></p>
+                <p>Team Average - Relational management: <strong>${avg4} / 40</strong></p>
             `;
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
